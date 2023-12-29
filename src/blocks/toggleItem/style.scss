@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-customblocksmager19-toggleitem {
+	.toggleItem__header {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+
+		h3 {
+			margin: 0px;
+		}
+
+		svg {
+			cursor: pointer;
+			height: 24px;
+			width: 24px;
+		}
+	}
+
+	.toggleItem__content {
+
+		display: none;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+	}
+
+	&.itemActive {
+		.toggleItem__content {
+			display: block;
+			opacity: 1;
+		}
+	}
+}

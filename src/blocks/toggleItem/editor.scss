@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-customblocksmager19-toggleitem {
+	flex: 1;
+
+
+	&.toggleItemContainer {
+		background-color: rgba(0,0,0,0.1);
+		padding: 20px;
+		position: relative;
+	}
+
+	.tagName {
+		background-color: rgb(76, 185, 231);
+		color: #fff;
+		font-size: 10px;
+		font-weight: 700;
+		left: 0;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+		position: absolute;
+		top: 0;
+	}
+
+	.titleItem {
+		font-size: 2rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	p{
+		font-size: 1rem;
+		letter-spacing: 0.1px;
+	}
+}

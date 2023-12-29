@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "customblocksmager19/toggleitem",
+	"version": "0.1.0",
+	"title": "Toggle Item",
+	"category": "customblocksmager19",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"titleItem": {
+			"type": "string",
+			"default": "Title Item"
+		},
+		"contentItem": {
+			"type": "string",
+			"default": "Sed pulvinar ornare commodo. Proin tincidunt neque ut tortor fermentum, eu malesuada mauris faucibus. Suspendisse ornare neque sit amet ex aliquam, aliquet ullamcorper lacus faucibus. Nullam pharetra et arcu in tincidunt. Praesent quam metus, sollicitudin aliquet risus quis, auctor lobortis lacus. Aliquam et mauris sed mauris cursus volutpat at sed elit."
+		}
+	},
+	"textdomain": "blocksmg",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"parent": ["customblocksmager19/togglecontent"],
+	"render": "file:./render.php"
+}
